@@ -39,6 +39,11 @@ h6 {
 .text-muted1{
   color: #eeeeee;!important;
 }
+
+#linkOnhover:hover{
+  text-decoration: none;
+}
+
 /*
 welcome text
 */
@@ -51,40 +56,40 @@ svg {
 
 .text-copy {
   fill: none;
-  stroke: white;
-  stroke-dasharray: 6% 29%;
+  stroke: #eeeeee;
+  stroke-dasharray: 100% 29%;
   stroke-width: 5px;
-  stroke-dashoffset: 0%;
+  stroke-dashoffset: 100%;
   animation: stroke-offset 5.5s infinite linear;
 }
 
 .text-copy:nth-child(1){
-  stroke: #4D163D;
+  stroke: #4f0d14;
   animation-delay: -1s;
 }
 
 .text-copy:nth-child(2){
-  stroke: #840037;
+  stroke: rgba(105, 11, 24, 0.55);
   animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-  stroke: #BD0034;
+  stroke: rgba(105, 11, 24, 0.55);
   animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-  stroke: #BD0034;
+  stroke: rgba(110, 13, 26, 0.55);
   animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-  stroke: #ffb230;
+  stroke: rgba(105, 11, 24, 0.55);
   animation-delay: -5s;
 }
 
 @keyframes stroke-offset{
-  100% {stroke-dashoffset: -35%;}
+  100% {stroke-dashoffset: -30%;}
 }
 
 

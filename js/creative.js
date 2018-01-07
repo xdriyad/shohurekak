@@ -66,6 +66,12 @@
         fixedContentPos: true
 
     });
+
+
+    $('#linkOnhover').hover(
+        function(){ $(this).addClass('text-white') },
+        function(){ $(this).removeClass('text-white') }
+    )
   // $('.popup-gallery').magnificPopup({
   //   delegate: 'a',
   //   type: 'iframe',
